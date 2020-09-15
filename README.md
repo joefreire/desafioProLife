@@ -20,7 +20,11 @@ php artisan storage:link
 touch database/database.sqlite
 php artisan migrate
 php artisan serve
+
 ```
+
+## ENV
+configurar dados do SMTP no env para envio do email
 
 ## Testes
 Os testes de Storage podem escrever no diretório `storage/app/public`.  
